@@ -37,7 +37,8 @@ def explain_command(client, command: str, model: str = "gemini-2.5-flash") -> st
 # ---------------- CLI Commands ----------------
 def display_command_panel(instruction: str, ctx: dict, cmd_line: str, meta: dict):
     """Displays a professional multi-section panel for command execution."""
-    console.print(Panel(f"\n[yellow]{instruction}[/yellow]", title="Instruction", style="green"))
+    
+    console.print("\n",Panel(f"\n[yellow]{instruction}[/yellow]", title="Instruction", style="green"))
     
     console.print(Panel(f"\n[bold magenta]{cmd_line}[/bold magenta]\n\n{meta.get('explanation','')}", title="Generated Command", style="bright_blue"))
     
