@@ -1,0 +1,32 @@
+[
+    {
+        "type": "gen",
+        "instruction": "show all .txt files in this folder",
+        "generated_command": "ls *.txt",
+        "meta": {
+            "explanation": "Lists all files in the current directory that have a '.txt' extension.",
+            "risk_level": "low"
+        },
+        "context": {
+            "cwd": "C:\\Users\\shivr\\ShellMate",
+            "count": 14,
+            "sample_files": [
+                ".env",
+                ".env.example",
+                ".git",
+                "README.md",
+                "__pycache__",
+                "cli.py",
+                "config.py",
+                "context.py",
+                "executor.py",
+                "gemini_client.py",
+                "logger.py",
+                "prompts.py",
+                "requirements.txt",
+                "run.py"
+            ]
+        },
+        "timestamp": "2025-11-02T12:40:26.804810"
+    }
+]
