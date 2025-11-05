@@ -94,7 +94,7 @@ pip install -r requirements.txt
 4. **Setup environment variables**
 ```bash
 touch .env
-cat GEMINI_API_KEY=your_api_key_here > .env
+echo "GEMINI_API_KEY=your_api_key_here" > .env
 ```
 5. **Make the file executable**
 ```bash
