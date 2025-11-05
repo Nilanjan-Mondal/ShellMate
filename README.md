@@ -11,6 +11,12 @@
 
 ShellMate is a lightweight CLI tool that helps users **convert natural language instructions into shell commands**, **explain existing commands**, and interactively execute them safely. It leverages the **Gemini AI model** for generating accurate and context-aware commands.
 
+---
+<div align="center">
+  <img src="https://cdn.discordapp.com/attachments/1235309844290867221/1435511680632094720/IMG-20251104-WA0000.jpg?ex=690c3bef&is=690aea6f&hm=bfe85fa9499dd58ea1c1ba4615d3bc4a525d1bb8321e2da5b1f08e52c84e71af" height=700 width=700/>
+</div>
+---
+
 > [!NOTE]
 >
 > ## Features
